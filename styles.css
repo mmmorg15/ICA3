@@ -1,0 +1,75 @@
+
+/* ./styles.css */
+
+body{
+    background-color: black;
+    color: white;
+    font-family: Arial, Helvetica, sans-serif;
+    font-size: 14px;
+}
+
+section > p
+section > blockquote{
+    line-height: 1.5;
+}
+
+#main-character{
+    font-weight: 900;
+}
+ol>li>span#fav-movie{
+    font-style: italic;
+}
+h1{
+    text-align: center;
+}
+.strikethrough-text{
+    text-decoration: line-through;
+}
+code{
+    letter-spacing: 0.5em;
+}
+section#description-section,
+section#fact-section,table {
+    width: 100%;
+    margin-right: auto;
+    margin-left: auto;
+}
+#description-section img{
+    height: auto;
+    max-width: 100%;
+    min-height: 120px;
+}
+.jedi{
+    font-style: italic;
+    font-family: 'Franklin Gothic Medium', 'Arial Narrow', Arial, sans-serif;
+}
+.center{
+    text-align: center;
+}
+.borderblue{
+    border: solid 10px rgb(137, 225, 252);
+    border-radius: 10px;
+}
+.bordergreen{
+    border: solid 10px rgb(137, 252, 152);
+    border-radius: 10px;
+}
+.borderred{
+    border: solid 10px rgb(252, 137, 137);
+    border-radius: 10px;
+}
+.shadowblue{
+    box-shadow: 10px 10px 10px rgb(62, 216, 243);
+}
+.shadowgreen{
+    box-shadow: 10px 10px 10px rgb(62, 243, 122);
+}
+.shadowred{
+    box-shadow: 10px 10px 10px rgb(243, 62, 62);
+}
+.link:hover{
+    color: rgb(2, 3, 3);
+    font-size: larger;
+}
+
+
